@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA0C39D51F5FBC83008F7834 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0C39D41F5FBC83008F7834 /* Weather.swift */; };
 		BAB6FC221F5F8B7E001DEFBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB6FC211F5F8B7E001DEFBA /* AppDelegate.swift */; };
 		BAB6FC241F5F8B7F001DEFBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB6FC231F5F8B7E001DEFBA /* ViewController.swift */; };
 		BAB6FC271F5F8B7F001DEFBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB6FC251F5F8B7F001DEFBA /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA0C39D41F5FBC83008F7834 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		BAB6FC1E1F5F8B7E001DEFBA /* WeatherTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB6FC211F5F8B7E001DEFBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAB6FC231F5F8B7E001DEFBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				BAB6FC331F5F8BB7001DEFBA /* WeatherGetter.swift */,
+				BA0C39D41F5FBC83008F7834 /* Weather.swift */,
 				BAB6FC201F5F8B7E001DEFBA /* WeatherTask */,
 				BAB6FC1F1F5F8B7E001DEFBA /* Products */,
 			);
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA0C39D51F5FBC83008F7834 /* Weather.swift in Sources */,
 				BAB6FC241F5F8B7F001DEFBA /* ViewController.swift in Sources */,
 				BAB6FC341F5F8BB7001DEFBA /* WeatherGetter.swift in Sources */,
 				BAB6FC221F5F8B7E001DEFBA /* AppDelegate.swift in Sources */,
@@ -304,6 +308,7 @@
 				BAB6FC321F5F8B7F001DEFBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
