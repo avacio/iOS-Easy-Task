@@ -11,13 +11,14 @@ Using the latest version of Xcode, create an app that has one button. When the b
 
 # Your comments or assumptions
 - very basic app, but can be refactored for wider use
-- emoji support for the following main weather conditions:
-        Clouds: ☁️
-        Mist, Atmosphere: 🌫
-        Rain, Drizzle: ☔️
-        Snow: ❄️
-        Thunderstorm, Extreme: ⛈
-        Clear: 🌞
-        
-        -> app will display emoji given Houston's current weather codition
+- even displays emojis given Houston's current weather condition
+- emoji support for the following main weather conditions: <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clouds: ☁️ <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mist, Atmosphere: 🌫 <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rain, Drizzle: ☔️ <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Snow: ❄️ <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thunderstorm, Extreme: ⛈ <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clear: 🌞 <br />
 
+Preview: It's not pretty, but it works! The chili peppers have to count for something right? <br />
+![Alt text](http://i.imgur.com/pctqXmQ.png)
