@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Weather.swift"
-            timestampString = "526369312.053635"
+            timestampString = "526455466.67671"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "init(weatherData:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -38,15 +38,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherTask/ViewController.swift"
-            timestampString = "526387062.08744"
+            timestampString = "526460893.974966"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -70,7 +70,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherGetter.swift"
@@ -105,8 +105,8 @@
                   symbolName = "WeatherTask.ViewController.temperatureLabel.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextField&gt;"
                   moduleName = "WeatherTask"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lexigee/Desktop/code/iOS-Easy-Task%20copy/WeatherTask/ViewController.swift"
-                  timestampString = "526453520.499751"
+                  urlString = "file:///Users/lexigee/Desktop/code/iOS-Easy-Task/WeatherTask/ViewController.swift"
+                  timestampString = "526456270.018727"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -120,8 +120,8 @@
                   symbolName = "WeatherTask.ViewController.temperatureLabel.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextField&gt;"
                   moduleName = "WeatherTask"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lexigee/Desktop/code/iOS-Easy-Task%20copy/WeatherTask/ViewController.swift"
-                  timestampString = "526453520.501999"
+                  urlString = "file:///Users/lexigee/Desktop/code/iOS-Easy-Task/WeatherTask/ViewController.swift"
+                  timestampString = "526456270.02075"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -135,8 +135,8 @@
                   symbolName = "WeatherTask.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; WeatherTask.ViewController"
                   moduleName = "WeatherTask"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lexigee/Desktop/code/iOS-Easy-Task%20copy/WeatherTask/ViewController.swift"
-                  timestampString = "526453520.5039"
+                  urlString = "file:///Users/lexigee/Desktop/code/iOS-Easy-Task/WeatherTask/ViewController.swift"
+                  timestampString = "526456270.023001"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -150,13 +150,168 @@
                   symbolName = "WeatherTask.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;WeatherTask.ViewController&gt;"
                   moduleName = "WeatherTask"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lexigee/Desktop/code/iOS-Easy-Task%20copy/WeatherTask/ViewController.swift"
-                  timestampString = "526453520.505646"
+                  urlString = "file:///Users/lexigee/Desktop/code/iOS-Easy-Task/WeatherTask/ViewController.swift"
+                  timestampString = "526456270.025503"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
                   endingLineNumber = "13"
                   offsetFromSymbolStart = "54">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherGetter.swift"
+            timestampString = "526454799.885775"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "getWeather(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherTask.WeatherGetter.getWeather (Swift.String) -&gt; ()"
+                  moduleName = "WeatherTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lexigee/Desktop/code/iOS-Easy-Task/WeatherGetter.swift"
+                  timestampString = "526462015.397489"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "773">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherTask.WeatherGetter.(getWeather (Swift.String) -&gt; ()).(closure #1)"
+                  moduleName = "WeatherTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lexigee/Desktop/code/iOS-Easy-Task/WeatherGetter.swift"
+                  timestampString = "526462015.4012"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "1231">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherTask/ViewController.swift"
+            timestampString = "526462540.280739"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "button(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherTask/ViewController.swift"
+            timestampString = "526462002.475049"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "5"
+            endingLineNumber = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherTask.ViewController.__deallocating_deinit"
+                  moduleName = "WeatherTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lexigee/Desktop/code/iOS-Easy-Task/WeatherTask/ViewController.swift"
+                  timestampString = "526462015.444421"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherTask.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; WeatherTask.ViewController"
+                  moduleName = "WeatherTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lexigee/Desktop/code/iOS-Easy-Task/WeatherTask/ViewController.swift"
+                  timestampString = "526462015.447261"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherTask.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; WeatherTask.ViewController"
+                  moduleName = "WeatherTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lexigee/Desktop/code/iOS-Easy-Task/WeatherTask/ViewController.swift"
+                  timestampString = "526462015.450185"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherTask.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;WeatherTask.ViewController&gt;"
+                  moduleName = "WeatherTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lexigee/Desktop/code/iOS-Easy-Task/WeatherTask/ViewController.swift"
+                  timestampString = "526462015.453025"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherTask.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;WeatherTask.ViewController&gt;"
+                  moduleName = "WeatherTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lexigee/Desktop/code/iOS-Easy-Task/WeatherTask/ViewController.swift"
+                  timestampString = "526462015.456988"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "31">
                </Location>
             </Locations>
          </BreakpointContent>

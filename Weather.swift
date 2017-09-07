@@ -10,12 +10,8 @@ import Foundation
 
 class Weather {
     let mainWeather: String
-    let city: String
     
-    
-    
-    // OpenWeatherMap reports temperature in Kelvin,
-    // which is why we need to convert to Celsius
+    // OpenWeatherMap reports temperature in Kelvin -> converted to Celsius
     fileprivate let temp: Double
     var tempCelsius: Double {
         get {
@@ -24,8 +20,6 @@ class Weather {
     }
     
     init(weatherData: [String: AnyObject]) {
-        city = weatherData["name"] as! String
-        
         let mainDict = weatherData["main"] as! [String: AnyObject]
         temp = mainDict["temp"] as! Double
     

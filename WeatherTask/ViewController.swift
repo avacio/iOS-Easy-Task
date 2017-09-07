@@ -17,16 +17,20 @@ class ViewController: UIViewController, WeatherGetterDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.darkGray
         weather = WeatherGetter(delegate: self)
         
         // INITIALIZING UI
+        self.view.backgroundColor = UIColor(red: 252/255, green: 246/255, blue: 228/255, alpha: 1.0)
+        
+        
         cityLabel.text = city + ", TX"
         cityLabel.font = cityLabel.font.withSize(30)
         
         temperatureLabel.text = ""
+        temperatureLabel.font = temperatureLabel.font?.withSize(75)
+        
         mainWeatherLabel.text = ""
-        mainWeatherLabel.font = mainWeatherLabel.font.withSize(50)
+        mainWeatherLabel.font = mainWeatherLabel.font.withSize(160)
     }
 
     override func didReceiveMemoryWarning() {
@@ -64,13 +68,6 @@ class ViewController: UIViewController, WeatherGetterDelegate {
     }
     
         func didNotGetWeather(_ error: NSError) {
-            // This method is called asynchronously, which means it won't execute in the main queue.
-            // All UI code needs to execute in the main queue, which is why we're wrapping the call
-            // to showSimpleAlert(title:message:) in a dispatch_async() call.
-            DispatchQueue.main.async {
-//                self.showSimpleAlert(title: "Can't get the weather",
-//                                     message: "The weather service isn't responding.")
-            }
             print("didNotGetWeather error: \(error)")
         }
 

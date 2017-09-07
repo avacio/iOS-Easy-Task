@@ -27,30 +27,29 @@ class WeatherGetter {
         
         let requestURL = URL(string: "http://api.openweathermap.org/data/2.5/weather?APPID=\(weatherAPIKey)&q=\(city)")!
         
-        let dataFetched = URLSession.shared.dataTask(with: requestURL, completionHandler: {
-            (data: Data?, response: URLResponse?, error: NSError?) in
+        let configuration = URLSessionConfiguration.default
+        let session = URLSession(configuration: configuration)
+        
+        let dataFetched = session.dataTask(with: requestURL, completionHandler: {
+            (data: Data?, response: URLResponse?, error: Error?) -> Void in
             if let networkError = error {
-                 self.delegate.didNotGetWeather(networkError)
+                 self.delegate.didNotGetWeather(networkError as NSError)
             }
             else {
                 do {
-                    // Try to convert that data into a Swift dictionary
                     let weatherData = try JSONSerialization.jsonObject(
                         with: data!,
                         options: .mutableContainers) as! [String: AnyObject]
                     
                     let weather = Weather(weatherData: weatherData)
                     
-                    // Now that we have the Weather struct, let's notify the view controller,
-                    // which will use it to display the weather to the user.
                     self.delegate.didGetWeather(weather)
                 }
                 catch let jsonError as NSError {
                      self.delegate.didNotGetWeather(jsonError)
                 }
             }
-            } as! (Data?, URLResponse?, Error?) -> Void)
-        
+        })
         dataFetched.resume()
     }
 }

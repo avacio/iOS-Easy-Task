@@ -22,27 +22,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Temperature" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7RJ-TL-PM0">
-                                <rect key="frame" x="240" y="419" width="104" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Temperature" borderStyle="line" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7RJ-TL-PM0">
+                                <rect key="frame" x="0.0" y="416" width="375" height="75"/>
+                                <color key="backgroundColor" red="0.25099519819999999" green="0.28252224170000001" blue="0.39871149389999999" alpha="0.92297535210000003" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="kcV-BI-DZF"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6p-Gj-qm6">
-                                <rect key="frame" x="68" y="239" width="239" height="30"/>
-                                <state key="normal" title="is it getting in here, or is it just me?"/>
+                                <rect key="frame" x="218" y="550" width="134" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="Smp-Mt-bB2"/>
+                                    <constraint firstAttribute="width" constant="134" id="eHe-g4-iX1"/>
+                                </constraints>
+                                <state key="normal" title="🌶 click me 🌶"/>
                                 <connections>
                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xle-7d-MPJ"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" translatesAutoresizingMaskIntoConstraints="NO" id="v6m-UG-aei">
-                                <rect key="frame" x="313.5" y="469" width="30.5" height="20.5"/>
+                                <rect key="frame" x="311" y="521" width="31" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather Emoji" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wyf-4M-KdC">
-                                <rect key="frame" x="68" y="545" width="111" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather Emoji" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wyf-4M-KdC">
+                                <rect key="frame" x="37" y="65" width="322" height="216"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="216" id="MtU-gL-5PP"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -50,26 +61,27 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="wyf-4M-KdC" secondAttribute="trailing" constant="180" id="246-Jw-bcm"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="v6m-UG-aei" secondAttribute="trailing" constant="15" id="28Y-9X-DJ2"/>
-                            <constraint firstItem="wyf-4M-KdC" firstAttribute="top" secondItem="v6m-UG-aei" secondAttribute="bottom" constant="55.5" id="6wm-pk-raA"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="q6p-Gj-qm6" secondAttribute="trailing" constant="52" id="8Wf-Tj-WcJ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="7RJ-TL-PM0" secondAttribute="trailing" constant="15" id="V81-Zb-OnH"/>
-                            <constraint firstItem="v6m-UG-aei" firstAttribute="top" secondItem="7RJ-TL-PM0" secondAttribute="bottom" constant="20" id="VkI-4z-wwX"/>
-                            <constraint firstItem="7RJ-TL-PM0" firstAttribute="top" secondItem="q6p-Gj-qm6" secondAttribute="bottom" constant="150" id="bkW-JX-r4w"/>
-                            <constraint firstItem="q6p-Gj-qm6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="52" id="dDb-BD-xoA"/>
-                            <constraint firstItem="q6p-Gj-qm6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="219" id="emw-NU-SaH"/>
+                            <constraint firstAttribute="trailing" secondItem="7RJ-TL-PM0" secondAttribute="trailing" id="5fh-Os-al5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="q6p-Gj-qm6" secondAttribute="trailing" constant="7" id="P9S-ke-v4c"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="v6m-UG-aei" secondAttribute="trailing" constant="17" id="QmG-sK-zKA"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="q6p-Gj-qm6" secondAttribute="bottom" constant="63" id="b24-Sa-rVZ"/>
+                            <constraint firstItem="wyf-4M-KdC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="45" id="bmm-Ec-4UQ"/>
+                            <constraint firstItem="wyf-4M-KdC" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="gZm-M4-TZQ"/>
+                            <constraint firstItem="q6p-Gj-qm6" firstAttribute="top" secondItem="v6m-UG-aei" secondAttribute="bottom" constant="8" symbolic="YES" id="nmm-XW-iAb"/>
+                            <constraint firstItem="v6m-UG-aei" firstAttribute="top" secondItem="7RJ-TL-PM0" secondAttribute="bottom" constant="30" id="vG6-cg-FIX"/>
+                            <constraint firstItem="wyf-4M-KdC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21" id="waf-Vp-Gjf"/>
+                            <constraint firstItem="7RJ-TL-PM0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="x67-xh-de4"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="cityLabel" destination="v6m-UG-aei" id="YkO-4n-2zK"/>
-                        <outlet property="mainWeatherLabel" destination="wyf-4M-KdC" id="enc-5Q-NAA"/>
+                        <outlet property="mainWeatherLabel" destination="wyf-4M-KdC" id="y7c-Rl-L1E"/>
                         <outlet property="temperatureLabel" destination="7RJ-TL-PM0" id="uyG-YK-YZP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="104.8" y="138.98050974512745"/>
+            <point key="canvasLocation" x="101.59999999999999" y="137.18140929535232"/>
         </scene>
     </scenes>
 </document>
