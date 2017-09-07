@@ -10,26 +10,27 @@ import Foundation
 
 protocol WeatherGetterDelegate {
     func didGetWeather(_ weather: Weather)
+    func didNotGetWeather(_ error: NSError)
 }
 
 class WeatherGetter {
     
     fileprivate var delegate: WeatherGetterDelegate
-    private let weatherAPIKey = "6027c5e0369d7640507be10e2bb14557"
+    private let weatherAPIKey = "8a07e6029692fdd1855cca2deed20a11"
     
     init(delegate: WeatherGetterDelegate) {
         self.delegate = delegate
     }
     
     
-    func getWeather(city: String)  {
-    
-        let requestURL = URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(city)&APPID=\(weatherAPIKey)")!
+    func getWeather(_ city: String)  {
+        
+        let requestURL = URL(string: "http://api.openweathermap.org/data/2.5/weather?APPID=\(weatherAPIKey)&q=\(city)")!
         
         let dataFetched = URLSession.shared.dataTask(with: requestURL, completionHandler: {
             (data: Data?, response: URLResponse?, error: NSError?) in
-            if let error = error {
-                print("Error:\n\(error)")
+            if let networkError = error {
+                 self.delegate.didNotGetWeather(networkError)
             }
             else {
                 do {
@@ -45,7 +46,7 @@ class WeatherGetter {
                     self.delegate.didGetWeather(weather)
                 }
                 catch let jsonError as NSError {
-                    print("Error:\n\(jsonError)")
+                     self.delegate.didNotGetWeather(jsonError)
                 }
             }
             } as! (Data?, URLResponse?, Error?) -> Void)
